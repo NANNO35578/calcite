@@ -3,3 +3,19 @@
 git init
 git remote add origin https://github.com/NANNO35578/calcite.git
 git pull origin main # pull license
+
+git branch docs
+# add Readme&commands.sh
+git add .
+git commit -m "docs: init repository"
+git checkout main
+git merge docs --no-ff
+git push origin main
+
+git checkout docs
+# add  last para&this para
+git add .
+git commit -m "docs: add last&this para"
+git checkout main
+git merge docs --no-ff
+git push -u origin main
