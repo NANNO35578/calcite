@@ -1,0 +1,3 @@
+[submodule "calcite_server"]
+	path = calcite_server
+	url = https://github.com/NANNO35578/calcite_server.git
