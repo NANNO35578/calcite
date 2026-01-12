@@ -31,3 +31,10 @@ git commit -m "Add module: server"
 git submodule update --init --recursive
 
 
+# 260113
+# add web subrepo
+git submodule add https://github.com/NANNO35578/calcite_web.git calcite_web
+git submodule update --init --recursive
+git add .
+git commit -m "B&F End: basic user login&register"
+git push -u origin main
