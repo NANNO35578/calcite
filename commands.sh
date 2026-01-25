@@ -38,3 +38,9 @@ git submodule update --init --recursive
 git add .
 git commit -m "B&F End: basic user login&register"
 git push -u origin main
+
+# 260125
+git submodule update --remote --recursive
+git commit -am "B&F End: basic note CRUD"
+git push origin main
+

@@ -3,7 +3,12 @@
 基于Web与Android双端的智能笔记系统
 
 - [x] 260113|03:03 完整实现用户注册登录
-
+- [x] 260125|18:17 基本实现笔记CRUD<!-- claude+glm 太好用了, 主要是便宜 -->
+- [ ] xxxxxx|xx:xx 完整实现笔记CRUD
+- [ ] xxxxxx|xx:xx ......
+- [ ] xxxxxx|xx:xx ......
+- [ ] xxxxxx|xx:xx ......
+- [ ] xxxxxx|xx:xx ......
 
 ----
 
