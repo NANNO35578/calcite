@@ -44,3 +44,10 @@ git submodule update --remote --recursive
 git commit -am "B&F End: basic note CRUD"
 git push origin main
 
+
+# 260415
+git submodule add https://github.com/NANNO35578/calcite_android.git calcite_android
+git submodule update --remote --recursive
+git add .
+git commit -m "submodule:Android"
+git push -u origin main
